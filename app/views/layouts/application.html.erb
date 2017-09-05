@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Producthunt</title>
     <%= csrf_meta_tags %>
 
@@ -9,6 +10,42 @@
   </head>
 
   <body>
+    <div class="bodywrapper">
+      <header>
+        <div class="wrapper_left">
+          <div class="producthuntlogo"><p> P </p></div>
+          <div class="pagetitle">Producthunt</div>
+        </div>
+
+        <div class="wrapper_right">
+          <div class="search">
+            <div class="searchicon"> <i class="fa fa-search" aria-hidden="true"></i> </div>
+            <input type="text" class="searchterm" placeholder="search for a product"></input>
+            <div class="clearicon"> <i class="fa fa-times" aria-hidden="true"></i> </div>
+          </div>
+          <div class="login">Login</div>
+          <div class="loginicon"><p>+</p> </div>
+        </div>
+      </header>
+
+      <nav>
+        <div class="navitem">
+          <div class="innernavitem">
+            <span>Tech</span>
+          </div>
+        </div>
+        <div class="navitem">
+          <div class="innernavitem">
+            <span>Games</span>
+          </div>
+        </div>
+        <div class="navitem">
+            <div class="innernavitem">
+              <span>Collections</span>
+            </div>
+        </div>
+      </nav>
     <%= yield %>
+  </div>
   </body>
 </html>
