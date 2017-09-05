@@ -1,0 +1,97 @@
+.img-circle {
+  border-radius: 50%;
+}
+
+main{
+  margin-left:10%;
+  margin-right: 10%;
+  padding:5px;
+}
+
+.date{
+  text-align: center;
+  padding:0.25em;
+  white-space: nowrap;
+}
+
+.date h1{
+font-weight: bold;
+font-size:24px;
+text-transform: uppercase;
+color:black;
+}
+
+.date h1 span{
+  font-weight:lighter;
+  font-size: 18px;
+  color: gray;
+}
+
+.product{
+  display:flex;
+  justify-content:center;
+  margin-top:15px;
+  padding:5px;
+  background-color: white;
+  align-items: center;
+  border-bottom:1px lightgray solid;
+}
+
+.product:hover{
+  background-color: #eeeeee;
+}
+.votes{
+  width:40px;
+  flex-shrink:0;
+
+  margin-right:5px;
+}
+
+.votesubdiv{
+  margin:0;
+  font-size:12px;
+  text-align: center;
+}
+
+.content{
+  background: none;
+  width:auto;
+  flex-grow: 1;
+  flex-shrink:1;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.content .productname{
+  font-size:24px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content .productdesc{
+  font-size:12px;
+  font-weight:lighter;
+  color:grey;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.avatar{
+  background:none;
+  flex-shrink:0;
+  margin-left:5px;
+  padding-top:5px;
+}
+
+.comments{
+  width:40px;
+  font-size:12px;
+  text-align: center;
+  background:none;
+  flex-shrink:0;
+  padding:5px;
+  margin-left:5px;
+}

@@ -1,0 +1,140 @@
+body{
+  margin-left:0;
+  font-family:sans-serif;
+  background-color:#4b4b4b;
+}
+
+.bodywrapper{
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color:white;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:75px;
+  padding-left:5%;
+  padding-right:5%;
+}
+
+
+header .wrapper_left{
+  display:flex;
+  justify-content:flex-start;
+  flex-shrink: 0;
+  align-items:center;
+  width:200px;
+
+}
+
+.producthuntlogo{
+  height:3em;
+  width:3em;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  flex-shrink:0;
+}
+
+.producthuntlogo p{
+text-align: center;
+margin:0;
+margin-top:1em;
+flex-shrink:0;
+user-select: none;
+cursor:default;
+}
+
+.pagetitle{
+  margin-left:10px;
+  flex-shrink:0;
+}
+
+header .wrapper_right{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  width:80%;
+}
+
+.search{
+  display:flex;
+  justify-content: flex-end;
+  background-color:black;
+  height:30px;
+  align-items: center;
+  background-color:white;
+  border: solid 1px black;
+  border-radius: 15px;
+
+
+}
+
+.focused{
+  width:100%;
+}
+
+.searchterm{
+width:100%;
+position:relative;
+border:0;
+background:none;
+padding: 5px;
+padding-left:10px;
+padding-right:10px;
+width:100%;
+order:2;
+}
+
+
+.searchterm:focus{
+  outline:none;
+}
+
+.searchicon{
+  font-size: 19px;
+  color:gray;
+  height:20px;
+  width:20px;
+  flex-shrink:0;
+  margin-left:5px;
+  order:1;
+}
+
+
+.clearicon{
+  font-size:20px;
+  color:gray;
+  height:20px;
+  width:20px;
+  flex-shrink:0;
+  margin-right:5px;
+  order:3;
+}
+
+
+.login{
+  margin-left:10px;
+  flex-shrink:0;
+}
+
+.loginicon{
+  font-size:15px;
+  height:2em;
+  width:2em;
+  border-radius:1em;
+  background-color: red;
+  color: white;
+  margin-left:10px;
+  flex-shrink:0;
+}
+
+.loginicon p{
+text-align: center;
+margin:0;
+margin-top:0.5em;
+user-select: none;
+cursor:default;
+}
